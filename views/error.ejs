@@ -1,0 +1,8 @@
+<div id="error-wrapper" class="flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-6xl font-bold text-red-600 mb-4"><%= content.status %> Error</h1>
+    <div class="mb-6">
+        <img src="<%= content.image %>" alt="Error Image" class="max-w-xs mx-auto">
+    </div>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4"><%= content.message %></h2>
+    <a href="/" class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition duration-300">Go Home</a>
+</div>
